@@ -12,6 +12,7 @@
 		02DF883D25681631003E755C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DF883C25681631003E755C /* Assets.xcassets */; };
 		02DF884025681631003E755C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DF883F25681631003E755C /* Preview Assets.xcassets */; };
 		02DF884E256937BC003E755C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF884D256937BC003E755C /* Credentials.swift */; };
+		02DF8855256A9130003E755C /* MQTTcomm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF8854256A9130003E755C /* MQTTcomm.swift */; };
 		E787B9406516DBDE4D723244 /* Pods_WDI2020_SmartAquarium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDE9A8F054B67EF5D69C52E /* Pods_WDI2020_SmartAquarium.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		02DF883F25681631003E755C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02DF884125681631003E755C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02DF884D256937BC003E755C /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		02DF8854256A9130003E755C /* MQTTcomm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTcomm.swift; sourceTree = "<group>"; };
 		7EDE9A8F054B67EF5D69C52E /* Pods_WDI2020_SmartAquarium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDI2020_SmartAquarium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		970CF3DDA9D5106784FD9976 /* Pods-WDI2020-SmartAquarium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDI2020-SmartAquarium.release.xcconfig"; path = "Target Support Files/Pods-WDI2020-SmartAquarium/Pods-WDI2020-SmartAquarium.release.xcconfig"; sourceTree = "<group>"; };
 		E7583E169E60FC9FF6CB8DC2 /* Pods-WDI2020-SmartAquarium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDI2020-SmartAquarium.debug.xcconfig"; path = "Target Support Files/Pods-WDI2020-SmartAquarium/Pods-WDI2020-SmartAquarium.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				02DF884125681631003E755C /* Info.plist */,
 				02DF883E25681631003E755C /* Preview Content */,
 				02DF884D256937BC003E755C /* Credentials.swift */,
+				02DF8854256A9130003E755C /* MQTTcomm.swift */,
 			);
 			path = "WDI2020-SmartAquarium";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				02DF884E256937BC003E755C /* Credentials.swift in Sources */,
 				02DF883B2568162F003E755C /* ContentView.swift in Sources */,
 				02DF88392568162F003E755C /* WDI2020_SmartAquariumApp.swift in Sources */,
+				02DF8855256A9130003E755C /* MQTTcomm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
